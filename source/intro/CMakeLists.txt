@@ -1,0 +1,12 @@
+foreach(target
+    getcputc
+    hello
+    ls1
+    mycat
+    shell1
+    shell2
+    testerror
+    uidgid
+    )
+  exec(${target})
+endforeach()

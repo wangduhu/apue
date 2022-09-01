@@ -1,0 +1,8 @@
+((nil . ((project-source-dir . "~/Project/apue/source")
+         (cmake-ide-project-dir . "~/Project/apue/source")
+         (cmake-ide-build-dir . "~/Project/apue/build")
+         (cmake-ide-cmake-opts . "-DCMAKE_BUILD_TYPE=Debug")
+         (helm-make-build-dir . "build")
+         (helm-make-arguments . "-j7")
+         (helm-ctest-dir . "~/Project/apue/build/")
+         )))

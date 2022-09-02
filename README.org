@@ -11,15 +11,31 @@ error: implicit declaration of function 'CMSG_LEN' is invalid
 #define CONTROLLEN      CMSG_LEN(sizeof(int))
 #+end_example
 
-** TODO demos [0/221]
+** TODO demos [4/221]
 
 - [ ] source/intro/testerror.c
-- [ ] source/intro/hello.c
-- [ ] source/intro/getcputc.c
+- [X] source/intro/hello.c
+  - getpid
+  - pid_t (long)
+- [X] source/intro/getcputc.c
+  - getc
+  - putc
+  - stdin :: extern FILE *__stdinp;
+  - stdout :: extern FILE *__stdoutp;
+  - EOF :: #define	EOF	(-1)
+  - 带缓冲的
 - [ ] source/intro/shell1.c
 - [ ] source/intro/uidgid.c
-- [ ] source/intro/ls1.c
-- [ ] source/intro/mycat.c
+- [X] source/intro/ls1.c
+  - DIR
+  - struct dirent: dir entry
+  - opendir
+  - readdir
+- [X] source/intro/mycat.c
+  - read
+  - write
+  - STDIN_FILENO
+  - STDOUT_FILENO
 - [ ] source/intro/shell2.c
 - [ ] source/fileio/hole.c
 - [ ] source/fileio/seek.c
